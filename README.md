@@ -1,6 +1,13 @@
-&lt;repositories&gt;		
-	&lt;repository&gt;
-		&lt;id&gt;maven&lt;/id&gt;
-		&lt;url&gt;https://raw.githubusercontent.com/ningbuer/maven-repo/master/repository&lt;/url&gt;
-	&lt;/repository&gt;
-&lt;/repositories&gt;
+# maven-repo
+My personal maven repository.
+
+## Usage
+pom.xml:
+```xml
+    <repositories>
+        <repository>
+            <id>ningbuer-maven-repo</id>
+            <url>https://raw.githubusercontent.com/ningbuer/maven-repo/master/repository</url>
+        </repository>
+    </repositories>
+```
